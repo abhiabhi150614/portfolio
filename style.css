@@ -315,13 +315,38 @@ nav {
     color: var(--text-muted);
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 .stats-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-top: 30px;
+}
+
+/* Education Section */
+#education {
+    padding: var(--section-padding);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.education-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.about-text p {
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .stat-card {
@@ -597,6 +622,10 @@ footer {
     
     .about-grid {
         grid-template-columns: 1fr;
+    }
+
+    .education-card {
+        height: auto;
     }
     
     .nav-links {
