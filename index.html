@@ -33,6 +33,7 @@
 
     <!-- Hero Section -->
     <section id="hero">
+        <canvas id="particle-canvas"></canvas>
         <div class="bg-shape shape-1"></div>
         <div class="bg-shape shape-2"></div>
         <div class="container">
@@ -89,42 +90,107 @@
     <!-- Education Section -->
     <section id="education">
         <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="glass-card education-card">
-                <div class="education-list">
-                    <!-- B.Tech -->
-                    <div class="education-item">
-                        <div class="edu-icon">
-                            <i class="fa-solid fa-graduation-cap"></i>
+            <h2 class="section-title">Education Journey</h2>
+            <div class="education-timeline">
+                <!-- B.Tech -->
+                <div class="education-card-modern">
+                    <div class="edu-timeline-dot"></div>
+                    <div class="edu-card-content">
+                        <div class="edu-header">
+                            <div class="edu-icon-modern">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="edu-year-badge">2022 - 2026</div>
                         </div>
-                        <div class="edu-details">
-                            <h4>B.Tech in CSE (AI & ML)</h4>
-                            <h5>Kalasalingam Academy of Research and Education</h5>
-                            <p>2022 - 2026 | CGPA: 9.04</p>
+                        <div class="edu-info">
+                            <h3>Bachelor of Technology</h3>
+                            <h4>Computer Science & Engineering (AI & ML)</h4>
+                            <p class="edu-institution">
+                                <i class="fa-solid fa-building-columns"></i>
+                                Kalasalingam Academy of Research and Education
+                            </p>
+                            <div class="edu-achievements">
+                                <div class="achievement-badge cgpa-badge">
+                                    <span class="badge-label">CGPA</span>
+                                    <span class="badge-value">9.04</span>
+                                </div>
+                                <div class="achievement-badge highlight-badge">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>Specialization in AI/ML</span>
+                                </div>
+                            </div>
+                            <div class="edu-highlights">
+                                <div class="highlight-item">
+                                    <i class="fa-solid fa-trophy"></i>
+                                    <span>6 National Competition Wins</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>10+ AI/ML Projects</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Intermediate -->
-                    <div class="education-item">
-                        <div class="edu-icon">
-                            <i class="fa-solid fa-building-columns"></i>
+                <!-- Intermediate -->
+                <div class="education-card-modern">
+                    <div class="edu-timeline-dot"></div>
+                    <div class="edu-card-content">
+                        <div class="edu-header">
+                            <div class="edu-icon-modern secondary">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+                            <div class="edu-year-badge">2020 - 2022</div>
                         </div>
-                        <div class="edu-details">
-                            <h4>Intermediate Education</h4>
-                            <h5>Sri Chaitanya Junior Kalasala</h5>
-                            <p>2020 - 2022 | Percentage: 96.3%</p>
+                        <div class="edu-info">
+                            <h3>Intermediate Education</h3>
+                            <h4>Science Stream (MPC)</h4>
+                            <p class="edu-institution">
+                                <i class="fa-solid fa-building"></i>
+                                Sri Chaitanya Junior Kalasala
+                            </p>
+                            <div class="edu-achievements">
+                                <div class="achievement-badge percentage-badge">
+                                    <span class="badge-label">Score</span>
+                                    <span class="badge-value">96.3%</span>
+                                </div>
+                                <div class="achievement-badge highlight-badge">
+                                    <i class="fa-solid fa-medal"></i>
+                                    <span>Top Performer</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Secondary School -->
-                    <div class="education-item">
-                        <div class="edu-icon">
-                            <i class="fa-solid fa-school"></i>
+                <!-- Secondary School -->
+                <div class="education-card-modern">
+                    <div class="edu-timeline-dot"></div>
+                    <div class="edu-card-content">
+                        <div class="edu-header">
+                            <div class="edu-icon-modern tertiary">
+                                <i class="fa-solid fa-school"></i>
+                            </div>
+                            <div class="edu-year-badge">2020</div>
                         </div>
-                        <div class="edu-details">
-                            <h4>Secondary School Education</h4>
-                            <h5>Krishnaveni Talent School</h5>
-                            <p>Completed 2020 | CGPA: 10.0</p>
+                        <div class="edu-info">
+                            <h3>Secondary School Education</h3>
+                            <h4>Class X - CBSE Board</h4>
+                            <p class="edu-institution">
+                                <i class="fa-solid fa-school-flag"></i>
+                                Krishnaveni Talent School
+                            </p>
+                            <div class="edu-achievements">
+                                <div class="achievement-badge perfect-badge">
+                                    <span class="badge-label">CGPA</span>
+                                    <span class="badge-value">10.0</span>
+                                </div>
+                                <div class="achievement-badge highlight-badge">
+                                    <i class="fa-solid fa-award"></i>
+                                    <span>Perfect Score</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
